@@ -9,7 +9,7 @@ colour==0.1.5
 cPython==0.0.5
 decorator==4.4.2
 distlib==0.3.0
-Django==2.2.7
+Django==2.2.13
 django-cleanup==4.0.0
 django-crispy-forms==1.9.0
 djangorestframework==3.10.3
