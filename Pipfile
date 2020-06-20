@@ -8,6 +8,9 @@ verify_ssl = true
 [packages]
 gunicorn = "*"
 django-heroku = "*"
+django-crispy-forms = "*"
+django-cleanup = "*"
+pillow = "*"
 
 [requires]
 python_version = "3.7"
