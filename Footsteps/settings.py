@@ -54,7 +54,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'TheLab.urls'
+ROOT_URLCONF = 'Footsteps.urls'
 
 TEMPLATES = [
     {
@@ -72,7 +72,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'TheLab.wsgi.application'
+WSGI_APPLICATION = 'Footsteps.wsgi.application'
 
 
 # Database
