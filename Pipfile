@@ -12,6 +12,8 @@ django-crispy-forms = "*"
 django-cleanup = "*"
 pillow = "*"
 whitenoise = "*"
+python-dotenv = "*"
+psycopg2 = "*"
 
 [requires]
 python_version = "3.7"

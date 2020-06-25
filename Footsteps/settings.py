@@ -12,6 +12,9 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 
 import os
 import django_heroku
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -79,10 +82,21 @@ WSGI_APPLICATION = 'Footsteps.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
+# TODO: Change dbconfig settings over to environment variables
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql',
+
+        'NAME': os.getenv('POSTGRES_DB'),
+
+        'USER': os.getenv('POSTGRES_USER'),
+
+        'PASSWORD': os.getenv('POSTGRES_PASSWORD'),
+        
+        # TODO: Make host use local in development.
+        'HOST': os.getenv('POSTGRES_HOST'),
+
+        'PORT': 5432,
     }
 }
 
