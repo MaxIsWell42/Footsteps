@@ -1,1 +1,1 @@
-web: gunicorn Footsteps.wsgi --log-file -
+web: gunicorn Footsteps:app
