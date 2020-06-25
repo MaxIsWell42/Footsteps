@@ -1,1 +1,1 @@
-web: gunicorn -b 0.0.0.0:8080 --chdir ./Footsteps wsgi.py  
+web: gunicorn -b 0.0.0.0:8080 Footsteps.wsgi:application
