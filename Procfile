@@ -1,1 +1,1 @@
-web: gunicorn Footsteps:application --preload
+web: gunicorn wsgi.py --log-file -
