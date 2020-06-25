@@ -1,1 +1,1 @@
-web: gunicorn -b 0.0.0.0:8080 Footsteps.wsgi:application
+web: gunicorn Footsteps.wsgi:application
