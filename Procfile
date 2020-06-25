@@ -1,1 +1,1 @@
-web: gunicorn Footsteps:app
+web: gunicorn Footsteps:app -b 0.0.0.0:8000
