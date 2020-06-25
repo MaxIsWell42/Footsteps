@@ -1,1 +1,1 @@
-web: gunicorn wsgi.py --log-file -
+web: gunicorn -b 0.0.0.0:8080 --chdir ./Footsteps wsgi.py  
