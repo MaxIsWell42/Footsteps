@@ -5,23 +5,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <!-- Favicon-->
+    <!-- <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" /> -->
+    <!-- Font Awesome icons (free version)-->
+    <script src="{% static '/blog/js/scripts.js' %}" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="{% static 'https://fonts.googleapis.com/css?family=Montserrat:400,700' %}" rel="stylesheet" type="text/css" />
+    <link href="{% static 'https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' %}" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="{% static '/blog/css/styles.css' %}" rel="stylesheet" />
 
-    <link rel="stylesheet" href="{% static 'blog/main.css' %}">
-    <link rel="stylesheet" href="{% static 'blog/contact.css' %}">
-    <link rel="stylesheet" href="{% static 'blog/contact_responsive.css' %}">
-    <link rel="stylesheet" href="{% static 'blog/listings.css' %}">
-    <link rel="stylesheet" href="{% static 'blog/responsive.css' %}">
-    <link rel="stylesheet" href="{% static 'blog/main_styles.css' %}">
-    <link rel="stylesheet" href="{% static 'blog/listing.css' %}">
-    <link rel="stylesheet" href="{% static 'blog/main_styles.css' %}">
-    <link rel="stylesheet" href="{% static 'blog/main_styles.css' %}">
-    <link rel="stylesheet" type="text/css" href="styles/bootstrap-4.1.2/bootstrap.min.css">
-    <link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="/plugins/OwlCarousel2-2.3.4/owl.carousel.css">
-    <link rel="stylesheet" type="text/css" href="/plugins/OwlCarousel2-2.3.4/owl.theme.default.css">
-    <link rel="stylesheet" type="text/css" href="/plugins/OwlCarousel2-2.3.4/animate.css">
+    <!-- CSS FILES-->
+    <link rel="stylesheet" href="{% static 'blog/css/main.css' %}">
 
 
     {% if title %}
