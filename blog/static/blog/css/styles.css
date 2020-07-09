@@ -67,6 +67,10 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff;
+  height: 100%;
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: 1fr auto;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -10250,14 +10254,13 @@ form .row:first-child .floating-label-form-group {
 }
 
 .footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  color: white;
-  text-align: center;
+  height: 110px;
 }
 
 .copyright {
   background-color: #1a252f;
+}
+
+.content {
+  min-height: calc(81vh - 70px);
 }

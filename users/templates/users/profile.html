@@ -3,6 +3,8 @@
 {% block content %}
 
     <div class="content-section" style="border-radius: 15px">
+        <div class="row">
+        <div class="col-md-8">
         <div class="media">
             <img class="rounded-circle account-img" src="{{ user.profile.image.url }}">
             <div class="media-body">
@@ -20,6 +22,20 @@
                 <button class="btn btn-outline-info" type="submit">Update</button>
             </div>
         </form>
+    </div>
+    
+    <div class="col-md-4">
+        <div class="" style="border-radius: 15px">
+        <h3>Come see what's cooking in the Lab!</h3>
+        <p class='text-muted'>Stay updated on what I'm working on
+            <ul class="list-group">
+            <li class="list-group-item list-group-item-light">Latest Posts</li>
+            <li class="list-group-item list-group-item-light">Announcements</li>
+            <li class="list-group-item list-group-item-light">Calendars</li>
+            <li class="list-group-item list-group-item-light">etc</li>
+            </ul>
+        </p>
+        </div>
     </div>
     
 
