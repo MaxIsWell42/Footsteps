@@ -13,11 +13,13 @@
     <!-- Google fonts-->
     <link href="{% static 'https://fonts.googleapis.com/css?family=Montserrat:400,700' %}" rel="stylesheet" type="text/css" />
     <link href="{% static 'https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' %}" rel="stylesheet" type="text/css" />
+    
+    <!-- CSS FILES-->
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="{% static '/blog/css/styles.css' %}" rel="stylesheet" />
-
-    <!-- CSS FILES-->
     <link rel="stylesheet" href="{% static 'blog/css/main.css' %}">
+
+    <script src="{% static 'js/scripts.js' %}"></script>
 
 
     {% if title %}
@@ -27,34 +29,36 @@
     {% endif %}
 </head>
 
-<body>
-    <header class="site-header">
-        <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
-            <div class="container">
-                <a class="navbar-brand mr-4" href="{% url 'blog-index' %}">Footsteps</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+<body id="page-top">
+    <!-- Navigation-->
+    
+    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">Footsteps</a>
+            <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarToggle">
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
                 <div class="navbar-nav mr-auto">
                     <a class="nav-item nav-link" href="{% url 'blog-index' %}">Home</a>
                     <a class="nav-item nav-link" href="{% url 'blog-about'%}">About</a>
                 </div>
-                <!-- Navbar Right Side -->
-                <div class="navbar-nav">
-                    {% if user.is_authenticated %}
-                        <a class="nav-item nav-link" href="{% url 'post-create' %}">New Post</a>
-                        <a class="nav-item nav-link" href="{% url 'profile' %}">Profile</a>
-                        <a class="nav-item nav-link" href="{% url 'logout' %}">Logout</a>
-                    {% else %}
-                        <a class="nav-item nav-link" href="{% url 'login' %}">Login</a>
-                        <a class="nav-item nav-link" href="{% url 'register' %}">Register</a>
-                    {% endif %}
-                </div>
-                </div>
             </div>
-        </nav>
-    </header>
+            <!-- Navbar Right Side -->
+            <div class="navbar-nav">
+                {% if user.is_authenticated %}
+                    <a class="nav-item nav-link" href="{% url 'post-create' %}">New Post</a>
+                    <a class="nav-item nav-link" href="{% url 'profile' %}">Profile</a>
+                    <a class="nav-item nav-link" href="{% url 'logout' %}">Logout</a>
+                {% else %}
+                    <a class="nav-item nav-link" href="{% url 'login' %}">Login</a>
+                    <a class="nav-item nav-link" href="{% url 'register' %}">Register</a>
+                {% endif %}
+        </div>
+    </nav>
+<br>
+<br>
+
     <main role="main" class="container">
             <div class="row">
             <div class="col-md-8">
@@ -68,7 +72,7 @@
                 {% block content %}{% endblock %}
             </div>
             <div class="col-md-4">
-                <div class="content-section">
+                <div class="content-section" style="border-radius: 15px">
                 <h3>Come see what's cooking in the Lab!</h3>
                 <p class='text-muted'>Stay updated on what I'm working on
                     <ul class="list-group">
@@ -88,5 +92,11 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<footer class="footer bg-secondary" style="padding: -5px;">
+    <br>
+    <p>Footsteps</p>
+    <p><a href="">TBD</a></p>
+    </footer>
 </body>
 </html
