@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ### Footsteps Heroku app: ( https://spd-footsteps.herokuapp.com )
  
 # FootSteps
@@ -26,6 +25,7 @@ The tools we used to build this project includes:
 * Heroku (Deployment)
 # Getting Started
 ## Prerequisites
+You must have Python, Django
 ## Installation
 # Contributors
 | Name          | Team Role |
@@ -33,10 +33,3 @@ The tools we used to build this project includes:
 | Max Finn      | Backend   |
 | Kento Murata  | Backend   |
 | Alex Grey     | Frontend  |
-=======
-# Footsteps
-A webapp for getting acquainted with your new surroundings a little faster.
-
-## Heroku deployed app
-https://spd-footsteps.herokuapp.com
->>>>>>> 652bd039331ea7d0d4abb4ff64220c736d401bc8
