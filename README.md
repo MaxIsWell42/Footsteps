@@ -1,6 +1,7 @@
 ### Footsteps Heroku app: ( https://spd-footsteps.herokuapp.com )
  
 # FootSteps
+
 # Table of contents:
 * [About the Project](#About-the-Project)
     * [Built With](#Built-With)
@@ -9,6 +10,7 @@
     * [Installation](#Installation)
     * [Running the project](#Running-the-project)
 * [Contributers](#Contributers)
+
 # About the Project
 A "hitchhiker's guide" to new living environments. Moving is one of the most stressful events in a person's life, and often leads to the costly mistakes typically associated with it. Footsteps aims to fix that, by giving users different features to use:
 * The ability to add their experiences
@@ -46,6 +48,7 @@ You must have ```Python``` installed on your computer:
     pipenv install
     ``` 
     >This will install all of the project's dependencies into your virtual environment.
+
 ## Running the project
 1. Run this command in your terminal:
     ```
@@ -54,6 +57,7 @@ You must have ```Python``` installed on your computer:
     >This is the command you use to run the project server.
 2. Open up your internet browser and copy & paste the link displayed in your terminal into the browser's address bar 
     >(searchbar at the top of the browser).
+
 # Contributors
 | Name          | Team Role |
 | --------------| ----------|
