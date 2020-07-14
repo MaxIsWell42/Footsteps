@@ -13,8 +13,9 @@ django-crispy-forms = "*"
 django-cleanup = "*"
 pillow = "*"
 whitenoise = "*"
-python-dotenv = "*"
 psycopg2 = "*"
+python-dotenv = "*"
+python-google-places = "*"
 
 [requires]
 python_version = "3.7"
