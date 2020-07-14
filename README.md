@@ -52,7 +52,8 @@ You must have ```Python``` installed on your computer:
     python3 manage.py runserver
     ```
     >This is the command you use to run the project server.
-2. Open up your internet browser and copy & paste the link displayed in your terminal.
+2. Open up your internet browser and copy & paste the link displayed in your terminal into the browser's address bar 
+    >(searchbar at the top of the browser).
 # Contributors
 | Name          | Team Role |
 | --------------| ----------|
