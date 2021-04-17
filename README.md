@@ -1,6 +1,6 @@
+# FootSteps
 ### Footsteps Heroku app: ( https://spd-footsteps.herokuapp.com )
 
-# FootSteps
 ![Footsteps image](https://lifestyledezine.com/wp-content/uploads/2019/10/Traveling-the-world.jpg)
 
 # Table of contents:
