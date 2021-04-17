@@ -1,5 +1,6 @@
 ### Footsteps Heroku app: ( https://spd-footsteps.herokuapp.com )
- 
+
+![Footsteps image](https://lifestyledezine.com/wp-content/uploads/2019/10/Traveling-the-world.jpg)
 # FootSteps
 
 # Table of contents:
@@ -19,6 +20,7 @@ A "hitchhiker's guide" to new living environments. Moving is one of the most str
 * Safest ways to walk
 
 and more sorted by demographic.
+
 
 ## Built With
 The tools we used to build this project includes:
