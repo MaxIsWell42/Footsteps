@@ -3,6 +3,8 @@
 
 ![Footsteps image](https://lifestyledezine.com/wp-content/uploads/2019/10/Traveling-the-world.jpg)
 
+![Test image](https://github.com/JorgeGallegosMS/LOL101)
+
 # Table of contents:
 * [About the Project](#About-the-Project)
     * [Built With](#Built-With)
